@@ -52,6 +52,16 @@
 		<link
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
 			rel="stylesheet" />
+		<style>
+			:root {
+			--bg-color: #0a192f;
+			--text-color: #e6f1ff;
+			--nav-bg: rgba(10, 25, 47, 0.85);
+			--card-bg: #112240;
+			--accent-color: #64ffda;
+			--secondary-bg: #172a45;
+		}
+			</style>
 	</head>
 	<body>
 		<nav>
@@ -164,7 +174,7 @@
 		<!-- CV / Currículum -->
 		<section
 			id="cv"
-			class="section">
+			class="section"  style= "background-color: var(--secondary-bg);">
 			<div class="container">
 				<div
 					class="row"
@@ -919,14 +929,7 @@
 		.mt-3 {
 			margin-top: -100px !important;
 		}
-		:root {
-			--bg-color: #0a192f;
-			--text-color: #e6f1ff;
-			--nav-bg: rgba(10, 25, 47, 0.85);
-			--card-bg: #112240;
-			--accent-color: #64ffda;
-			--secondary-bg: #172a45;
-		}
+		
 		body {
 			font-family: 'Roboto', sans-serif;
 			background-color: var(--bg-color);
@@ -1562,3 +1565,4 @@
 		}
 	</style>
 </html>
+
